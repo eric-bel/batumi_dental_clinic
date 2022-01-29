@@ -1,7 +1,21 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    screens: {
+      mob: { min: "100px", max: "639px" },
+      //  @media (min-width: 100px and max-width: 639px)
+      tab: { min: "640px", max: "767px" },
+      //  @media (min-width: 640px and max-width: 767px)
+      md: { min: "768px", max: "1023px" },
+      //  @media (min-width: 768px and max-width: 1023px)
+      lap: { min: "1024px", max: "1279px" },
+      //  @media (min-width: 1024px and max-width: 1279px)
+      desc: { min: "1280px", max: "1535px" },
+      //  @media (min-width: 1280px and max-width: 1535px)
+      xdesc: { min: "1536px" },
+      //  @media (min-width: 1536px)
+      min1920: { min: "1920px" },
+    },
   },
   plugins: [],
 };
