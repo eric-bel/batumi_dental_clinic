@@ -1,5 +1,9 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
+  
   theme: {
     fontFamily: {
       Comfortaa: ["Comfortaa", "cursive", "sans-serif"],
@@ -20,5 +24,5 @@ module.exports = {
       min1920: { min: "1920px" },
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin")],
 };

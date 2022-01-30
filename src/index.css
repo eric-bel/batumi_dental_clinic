@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 
 body {
@@ -45,7 +47,7 @@ screens: {
 @layer components {
   .header_container {
     @apply min1920:h-[167px] xdesc:h-[167px]
-  desc:h-[167px] lap:h-[167px] md:h-[150px] tab:h-[100px] mob:h-[70px];
+  desc:h-[140px] lap:h-[130px] md:h-[120px] tab:h-[100px] mob:h-[70px];
   }
 }
 
