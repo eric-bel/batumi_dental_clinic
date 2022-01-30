@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 
 body {
@@ -72,6 +70,13 @@ screens: {
 @layer components {
   .mob_text {
     @apply mob:text-[7px];
+  }
+}
+
+/* mob:bg-green-500 */
+@layer components {
+  .slider-img {
+    @apply w-4/5;
   }
 }
 
