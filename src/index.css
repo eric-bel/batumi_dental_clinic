@@ -2,6 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+@layer components {
+  .classname {
+    @apply
+  }
+}
+*/
+
+/*
+screens: {
+  mob: { min: "100px", max: "639px" },
+  tab: { min: "640px", max: "767px" },
+  md: { min: "768px", max: "1023px" },
+  lap: { min: "1024px", max: "1279px" },
+  desc: { min: "1280px", max: "1535px" },
+  xdesc: { min: "1536px" },
+  min1920: { min: "1920px" },
+},
+*/
+
+@layer components {
+  .main_container {
+    /* Margins */
+    @apply h-full min1920:mx-auto min1920:max-w-[1520px] xdesc:mx-[200px]
+  desc:mx-[50px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
+    /* Paddings */
+  min1920:px-[200px] xdesc:px-[200px]
+  desc:px-[50px] lap:px-[40px] md:px-[32px] tab:px-[20px] mob:px-[16px];
+  }
+}
+
+@layer components {
+  .header_container {
+    @apply min1920:h-[167px] xdesc:h-[167px]
+  desc:h-[167px] lap:h-[167px] md:h-[150px] tab:h-[100px] mob:h-[70px];
+  }
+}
+
+@layer components {
+  .md_icons {
+    @apply md:w-4 tab:w-3 mob:w-3;
+  }
+}
+
+@layer components {
+  .mob_icons {
+    @apply mob:w-2;
+  }
+}
+
+@layer components {
+  .tab_text {
+    @apply tab:text-[10px];
+  }
+}
+
+@layer components {
+  .mob_text {
+    @apply mob:text-[7px];
+  }
+}
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
