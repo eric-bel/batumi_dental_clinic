@@ -4,12 +4,16 @@ import serv from "../../../assets/services/serv.png";
 const ServicesDent = () => {
   return (
     <section className="main_container my-4">
-      <div className="flex justify-center items-center mb-6">
-        <img className="mr-2" src={serv} alt="Our services icon"></img>
-        <h2 className="text-2xl">Наши услуги</h2>
+      <div className="flex justify-center items-center mb-6 ">
+        <img className="mr-2 mob:w-[28px]" src={serv} alt="Our services icon"></img>
+        <h2 className="text-2xl 
+        mob:text-sm
+        ">Наши услуги</h2>
       </div>
 
-      <div className="accordion" id="accordionExample5">
+      <div id="accordionExample5" className="accordion w-3/4 mx-auto
+      mob:w-full mob:text-[10px]
+      ">
         {/* Лечение зубов */}
         <div className="accordion-item bg-white border border-gray-200">
           <h2 className="accordion-header mb-0" id="headingOne5">
@@ -38,7 +42,7 @@ const ServicesDent = () => {
               aria-expanded="true"
               aria-controls="collapseOne5"
             >
-              <div className="flex justify-center text-center w-full">
+              <div className="flex justify-center text-center w-full mob:text-[12px]">
                 Лечение зубов
               </div>
             </button>
@@ -101,7 +105,7 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseTwo5"
             >
-              <div className="flex justify-center text-center w-full">
+              <div className="flex justify-center text-center w-full mob:text-[12px]">
                 Имплантация зубов
               </div>
             </button>
@@ -163,7 +167,7 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseThree5"
             >
-              <div className="flex justify-center text-center w-full">
+              <div className="flex justify-center text-center w-full mob:text-[12px]">
                 Хирургия
               </div>
             </button>
@@ -216,7 +220,7 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseFour5"
             >
-              <div className="flex justify-center text-center w-full">
+              <div className="flex justify-center text-center w-full mob:text-[12px]">
                 Исправление прикуса
               </div>
             </button>
@@ -269,7 +273,7 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseSix5"
             >
-              <div className="flex justify-center text-center w-full">
+              <div className="flex justify-center text-center w-full mob:text-[12px]">
                 Детская стоматология
               </div>
             </button>
