@@ -62,7 +62,7 @@ const Carousel = () => {
                 min1920:text-[45px] min1920:leading-[60px] min1920:w-[490px] min1920:font-black
              "
               >
-                Batumi Dental Clinic
+                Batumi Dental <span className="text-green-600">Clinic</span>
               </h1>
               <p
                 className="text-[#171D54] text-left mt-2
