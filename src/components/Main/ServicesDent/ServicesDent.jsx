@@ -1,19 +1,34 @@
 import React from "react";
 import serv from "../../../assets/services/serv.png";
 
+
+
 const ServicesDent = () => {
   return (
     <section className="main_container my-4">
       <div className="flex justify-center items-center mb-6 ">
-        <img className="mr-2 mob:w-[28px]" src={serv} alt="Our services icon"></img>
-        <h2 className="text-2xl 
+        <img
+          className="mr-2 mob:w-[28px] tab:w-[30px] md:w-[32px] lap:w-[37px] lap:mr-4 desc:w-[39px] desc:mr-5"
+          src={serv}
+          alt="Our services icon"
+        ></img>
+        <h2
+          className="text-2xl 
         mob:text-sm
-        ">Наши услуги</h2>
+        tab:text-[15px]
+        "
+        >
+          Наши услуги
+        </h2>
       </div>
 
-      <div id="accordionExample5" className="accordion w-3/4 mx-auto
-      mob:w-full mob:text-[10px]
-      ">
+      <div
+        id="accordionExample5"
+        className="accordion w-3/4 mx-auto 
+      mob:w-4/5 mob:text-[10px]
+      tab:w-4/5 tab:text-[10px]
+      "
+      >
         {/* Лечение зубов */}
         <div className="accordion-item bg-white border border-gray-200">
           <h2 className="accordion-header mb-0" id="headingOne5">
@@ -42,7 +57,12 @@ const ServicesDent = () => {
               aria-expanded="true"
               aria-controls="collapseOne5"
             >
-              <div className="flex justify-center text-center w-full mob:text-[12px]">
+              <div
+                className="flex justify-center text-center w-full 
+              mob:text-[12px]
+              tab:text-[14px]
+              "
+              >
                 Лечение зубов
               </div>
             </button>
@@ -105,7 +125,12 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseTwo5"
             >
-              <div className="flex justify-center text-center w-full mob:text-[12px]">
+              <div
+                className="flex justify-center text-center w-full 
+              mob:text-[12px]
+              tab:text-[14px]
+              "
+              >
                 Имплантация зубов
               </div>
             </button>
@@ -167,7 +192,12 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseThree5"
             >
-              <div className="flex justify-center text-center w-full mob:text-[12px]">
+              <div
+                className="flex justify-center text-center w-full 
+              mob:text-[12px]
+              tab:text-[14px]
+              "
+              >
                 Хирургия
               </div>
             </button>
@@ -220,7 +250,12 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseFour5"
             >
-              <div className="flex justify-center text-center w-full mob:text-[12px]">
+              <div
+                className="flex justify-center text-center w-full 
+              mob:text-[12px]
+              tab:text-[14px]
+              "
+              >
                 Исправление прикуса
               </div>
             </button>
@@ -273,7 +308,12 @@ const ServicesDent = () => {
               aria-expanded="false"
               aria-controls="collapseSix5"
             >
-              <div className="flex justify-center text-center w-full mob:text-[12px]">
+              <div
+                className="flex justify-center text-center w-full 
+              mob:text-[12px]
+              tab:text-[14px]
+              "
+              >
                 Детская стоматология
               </div>
             </button>
@@ -284,7 +324,7 @@ const ServicesDent = () => {
             aria-labelledby="headingSix5"
           >
             <div className="accordion-body py-4 px-5">
-              <dib className="flex justify-center text-black">
+              <div className="flex justify-center text-black">
                 <ul className="list-disc">
                   <li>Детская ортодонтия</li>
                   <li>Лечение молочных зубов</li>
@@ -293,7 +333,7 @@ const ServicesDent = () => {
                   <li>Седация в стоматологии детям</li>
                   <li>Лечение зубов под общей анестезией</li>
                 </ul>
-              </dib>
+              </div>
             </div>
           </div>
         </div>
