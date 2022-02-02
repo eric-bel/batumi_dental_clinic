@@ -5,11 +5,9 @@ import Main from "./components/Main/Main";
 function App() {
   return (
     <>
-      <div className="scroll-smooth">
+      <div className="scroll-smooth mb-16">
         <Header />
         <Main />
-        <div className="main_container h-screen mob:bg-lime-200 tab:bg-lime-300 md:bg-slate-500 lap:bg-lime-400 desc:bg-lime-500 xdesc:bg-lime-600 min1920:bg-lime-700"></div>
-        ;
       </div>
     </>
   );
