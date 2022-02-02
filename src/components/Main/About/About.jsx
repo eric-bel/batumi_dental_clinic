@@ -4,7 +4,7 @@ import team from "../../../assets/team.jpg";
 
 const About = () => {
   return (
-    <div className="main_container">
+    <div className="main_container my-[60px]">
       <section className="text-black">
         <div
           className="m-auto flex-col flex px-5 py-6 items-center 

@@ -13,20 +13,22 @@ screens: {
 
 const HeaderNav = () => {
   return (
-    <div
-      className="main_container border-t-[1px] border-gray-300 
-    tab:hidden mob:hidden"
-    >
-      <nav>
-        <ul className="flex justify-evenly items-center h-12 font-medium md:text-sm">
-          <li>Главная</li>
-          <li>О нас</li>
-          <li>Услуги</li>
-          <li>Оборудование</li>
-          <li>Контакты</li>
-        </ul>
-      </nav>
-    </div>
+    // <div className="fixed">
+      <div
+        className="main_container border-t-[1px] border-gray-300 
+      tab:hidden mob:hidden"
+      >
+        <nav>
+          <ul className="flex justify-evenly items-center h-12 font-medium md:text-sm">
+            <li>Главная</li>
+            <li>О нас</li>
+            <li>Услуги</li>
+            <li>Оборудование</li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
+      </div>
+    // </div>
   );
 };
 

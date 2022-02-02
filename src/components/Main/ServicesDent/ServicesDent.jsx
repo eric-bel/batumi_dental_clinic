@@ -1,7 +1,10 @@
 import React from "react";
 import serv from "../../../assets/services/serv.png";
-
-
+import child from "../../../assets/child.png";
+import treat from "../../../assets/treat.jpg";
+import surgery from "../../../assets/surgery.jpg";
+import implant from "../../../assets/implant.jpg";
+import correct from "../../../assets/correct.jpg";
 
 const ServicesDent = () => {
   return (
@@ -34,6 +37,7 @@ const ServicesDent = () => {
           <h2 className="accordion-header mb-0" id="headingOne5">
             <button
               className="
+              bg-[#eff2f4]
             text-lg
             font-extrabold
             accordion-button
@@ -45,11 +49,11 @@ const ServicesDent = () => {
             w-full
             py-4
             px-5
-        text-black text-center
-          border-[1px]
-          rounded-none
-          transition
-          focus:outline-none
+          text-black text-center
+            border-none
+            rounded-none
+            transition
+            ocus:outline-none
         "
               type="button"
               data-bs-toggle="collapse"
@@ -58,7 +62,7 @@ const ServicesDent = () => {
               aria-controls="collapseOne5"
             >
               <div
-                className="flex justify-center text-center w-full 
+                className="flex justify-center text-center w-full
               mob:text-[12px]
               tab:text-[14px]
               "
@@ -73,7 +77,8 @@ const ServicesDent = () => {
             aria-labelledby="headingOne5"
           >
             <div className="accordion-body">
-              <div className="flex justify-center py-4 px-5 text-black">
+              <img className="w-full" src={treat} alt="treatment"></img>
+              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Пломбирование каналов</li>
                   <li>Пломбирование зубов</li>
@@ -102,6 +107,7 @@ const ServicesDent = () => {
           <h2 className="accordion-header mb-0" id="headingTwo5">
             <button
               className="
+              bg-[#eff2f4]
               text-lg
             font-extrabold
             accordion-button
@@ -114,7 +120,7 @@ const ServicesDent = () => {
             py-4
             px-5
         text-black text-center
-          border-[1px]
+          border-none
           rounded-none
           transition
           focus:outline-none
@@ -140,8 +146,9 @@ const ServicesDent = () => {
             className="accordion-collapse collapse"
             aria-labelledby="headingTwo5"
           >
-            <div className="accordion-body py-4 px-5">
-              <div className="flex justify-center text-black">
+            <div className="accordion-body">
+              <img className="w-full" src={implant} alt="treatment"></img>
+              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Двухэтапная имплантация зубов</li>
                   <li>Протезирование зубов</li>
@@ -169,6 +176,7 @@ const ServicesDent = () => {
           <h2 className="accordion-header mb-0" id="headingThree5">
             <button
               className="
+              bg-[#eff2f4]
               text-lg
             font-extrabold
             accordion-button
@@ -181,7 +189,7 @@ const ServicesDent = () => {
             py-4
             px-5
         text-black text-center
-          border-[1px]
+          border-none
           rounded-none
           transition
           focus:outline-none
@@ -207,8 +215,9 @@ const ServicesDent = () => {
             className="accordion-collapse collapse"
             aria-labelledby="headingThree5"
           >
-            <div className="accordion-body py-4 px-5">
-              <div className="flex justify-center text-black">
+            <div className="accordion-body">
+              <img className="w-full" src={surgery} alt="treatment"></img>
+              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Удаление зубов</li>
                   <li>Удаление зубов мудрости</li>
@@ -227,6 +236,7 @@ const ServicesDent = () => {
           <h2 className="accordion-header mb-0" id="headingFour5">
             <button
               className="
+              bg-[#eff2f4]
               text-lg
             font-extrabold
             accordion-button
@@ -239,7 +249,7 @@ const ServicesDent = () => {
             py-4
             px-5
         text-black text-center
-          border-[1px]
+          border-none
           rounded-none
           transition
           focus:outline-none
@@ -265,8 +275,9 @@ const ServicesDent = () => {
             className="accordion-collapse collapse"
             aria-labelledby="headingFour5"
           >
-            <div className="accordion-body py-4 px-5">
-              <div className="flex justify-center text-black">
+            <div className="accordion-body ">
+              <img className="w-full" src={correct} alt="treatment"></img>
+              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Металлические брекеты</li>
                   <li>Керамические брекеты</li>
@@ -285,6 +296,7 @@ const ServicesDent = () => {
           <h2 className="accordion-header mb-0" id="headinSix5">
             <button
               className="
+              bg-[#eff2f4]
               text-lg
             font-extrabold
             accordion-button
@@ -297,7 +309,7 @@ const ServicesDent = () => {
             py-4
             px-5
         text-black text-center
-          border-[1px]
+          border-none
           rounded-none
           transition
           focus:outline-none
@@ -323,9 +335,10 @@ const ServicesDent = () => {
             className="accordion-collapse collapse"
             aria-labelledby="headingSix5"
           >
-            <div className="accordion-body py-4 px-5">
-              <div className="flex justify-center text-black">
-                <ul className="list-disc">
+            <div className="accordion-body">
+              <img className="w-full" src={child} alt="child"></img>
+              <div className="flex justify-center text-black bg-[#eff2f4]">
+                <ul className="list-disc py-4 px-5">
                   <li>Детская ортодонтия</li>
                   <li>Лечение молочных зубов</li>
                   <li>Лечение кариеса молочных зубов</li>

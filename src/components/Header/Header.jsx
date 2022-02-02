@@ -3,6 +3,7 @@ import HeaderNav from "./HeaderNav/HeaderNav";
 import HeaderTop from "./HeaderTop/HeaderTop";
 
 const Header = () => {
+  // className="relative"
   return (
     <div>
       <HeaderTop />
