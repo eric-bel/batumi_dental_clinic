@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/batumi_dental_clinic/static/css/main.88dacc5a.css",
-    "main.js": "/batumi_dental_clinic/static/js/main.50b05c4e.js",
+    "main.css": "/batumi_dental_clinic/static/css/main.ca00d972.css",
+    "main.js": "/batumi_dental_clinic/static/js/main.70e82fe0.js",
     "static/js/787.7d9912e0.chunk.js": "/batumi_dental_clinic/static/js/787.7d9912e0.chunk.js",
     "static/media/team.jpg": "/batumi_dental_clinic/static/media/team.8332f3155790684bc2e6.jpg",
     "static/media/child.png": "/batumi_dental_clinic/static/media/child.191c92a22a21cbc00007.png",
@@ -15,12 +15,12 @@
     "static/media/logosm.jpg": "/batumi_dental_clinic/static/media/logosm.8b95ee964f9d2fada317.jpg",
     "static/media/correct.jpg": "/batumi_dental_clinic/static/media/correct.7f9cf2f2df721d006ad5.jpg",
     "index.html": "/batumi_dental_clinic/index.html",
-    "main.88dacc5a.css.map": "/batumi_dental_clinic/static/css/main.88dacc5a.css.map",
-    "main.50b05c4e.js.map": "/batumi_dental_clinic/static/js/main.50b05c4e.js.map",
+    "main.ca00d972.css.map": "/batumi_dental_clinic/static/css/main.ca00d972.css.map",
+    "main.70e82fe0.js.map": "/batumi_dental_clinic/static/js/main.70e82fe0.js.map",
     "787.7d9912e0.chunk.js.map": "/batumi_dental_clinic/static/js/787.7d9912e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88dacc5a.css",
-    "static/js/main.50b05c4e.js"
+    "static/css/main.ca00d972.css",
+    "static/js/main.70e82fe0.js"
   ]
 }
