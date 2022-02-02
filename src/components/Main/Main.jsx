@@ -6,11 +6,7 @@ import Choice from "./Choice/Choice";
 import ServicesDent from "./ServicesDent/ServicesDent";
 
 const Main = () => {
-  /* #16A085 - #F4D03F */
-  // #29ffc6 - #20e3b2
-  // #EC4895 - #F59B0D
-  // className="
-  // bg-gradient-to-r from-[#EC4895] to-[#F59B0D]"
+ 
   return (
     <main>
       <Carousel />

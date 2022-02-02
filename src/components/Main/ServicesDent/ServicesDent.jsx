@@ -49,7 +49,7 @@ const ServicesDent = () => {
             w-full
             py-4
             px-5
-          text-black text-center
+          text-gray-600 text-center
             border-none
             rounded-none
             transition
@@ -78,7 +78,7 @@ const ServicesDent = () => {
           >
             <div className="accordion-body">
               <img className="w-full" src={treat} alt="treatment"></img>
-              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
+              <div className="flex justify-center py-4 px-5 text-gray-600 bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Пломбирование каналов</li>
                   <li>Пломбирование зубов</li>
@@ -119,7 +119,7 @@ const ServicesDent = () => {
             w-full
             py-4
             px-5
-        text-black text-center
+        text-gray-600 text-center
           border-none
           rounded-none
           transition
@@ -148,7 +148,7 @@ const ServicesDent = () => {
           >
             <div className="accordion-body">
               <img className="w-full" src={implant} alt="treatment"></img>
-              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
+              <div className="flex justify-center py-4 px-5 text-gray-600 bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Двухэтапная имплантация зубов</li>
                   <li>Протезирование зубов</li>
@@ -188,7 +188,7 @@ const ServicesDent = () => {
             w-full
             py-4
             px-5
-        text-black text-center
+        text-gray-600 text-center
           border-none
           rounded-none
           transition
@@ -217,7 +217,7 @@ const ServicesDent = () => {
           >
             <div className="accordion-body">
               <img className="w-full" src={surgery} alt="treatment"></img>
-              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
+              <div className="flex justify-center py-4 px-5 text-gray-600 bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Удаление зубов</li>
                   <li>Удаление зубов мудрости</li>
@@ -248,7 +248,7 @@ const ServicesDent = () => {
             w-full
             py-4
             px-5
-        text-black text-center
+        text-gray-600 text-center
           border-none
           rounded-none
           transition
@@ -277,7 +277,7 @@ const ServicesDent = () => {
           >
             <div className="accordion-body ">
               <img className="w-full" src={correct} alt="treatment"></img>
-              <div className="flex justify-center py-4 px-5 text-black bg-[#eff2f4]">
+              <div className="flex justify-center py-4 px-5 text-gray-600 bg-[#eff2f4]">
                 <ul className="list-disc">
                   <li>Металлические брекеты</li>
                   <li>Керамические брекеты</li>
@@ -308,7 +308,7 @@ const ServicesDent = () => {
             w-full
             py-4
             px-5
-        text-black text-center
+        text-gray-600 text-center
           border-none
           rounded-none
           transition
@@ -337,7 +337,7 @@ const ServicesDent = () => {
           >
             <div className="accordion-body">
               <img className="w-full" src={child} alt="child"></img>
-              <div className="flex justify-center text-black bg-[#eff2f4]">
+              <div className="flex justify-center text-gray-600 bg-[#eff2f4]">
                 <ul className="list-disc py-4 px-5">
                   <li>Детская ортодонтия</li>
                   <li>Лечение молочных зубов</li>
